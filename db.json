@@ -33,6 +33,12 @@
       "description": "healty activity",
       "id": 3,
       "authorid": 2
+    },
+    {
+      "title": "programming",
+      "description": "creative activity",
+      "id": 4,
+      "authorid": 2
     }
   ]
 }

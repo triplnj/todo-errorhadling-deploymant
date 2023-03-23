@@ -149,7 +149,7 @@ export const createNewTodo = async (req, res, next) => {
         const newTodo = { ...req.body, id: db.data.todos.slice(-1)[0]?.id + 1 || 1,
         authorid: parseInt(req.params.uid)
         };
-
+      
         if (!newTodo.title || !newTodo.description) {
             return next(createError(400, 'Some required fields are missing')) ;
         }

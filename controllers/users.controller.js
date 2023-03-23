@@ -26,7 +26,7 @@ export const getUserById = async (req, res, next) => {
         return res.status(400).json({ message: 'The user id supposed to be a number' });
     }
 
-    const userIndex = db.data.users.findIndex(p => p.id === userid);
+    const userIndex = db.data.users.findIndex(u => u.id === userid);
     if(userIndex === -1){
         return res.status(404).json({ message: "The user doesn't exist." });
     }
