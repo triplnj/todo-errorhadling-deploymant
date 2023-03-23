@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "fname": "Dejan",
+      "lname": "Ivkovic",
+      "userName": "kreepto",
+      "password": "kreepto444",
+      "id": 1
+    },
+    {
+      "fname": "Amad",
+      "lname": "Khan",
+      "userName": "amad",
+      "password": "amad123",
+      "id": 2
+    }
+  ],
+  "todos": [
+    {
+      "title": "playing guitar",
+      "description": "good activity",
+      "id": 1,
+      "authorid": 1
+    },
+    {
+      "title": "writing",
+      "description": "good activity",
+      "id": 2,
+      "authorid": 1
+    },
+    {
+      "title": "gym",
+      "description": "healty activity",
+      "id": 3,
+      "authorid": 2
+    }
+  ]
+}
